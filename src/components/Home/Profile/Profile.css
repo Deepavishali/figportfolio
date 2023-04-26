@@ -1,0 +1,33 @@
+#profile-heading {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: yellow;
+    margin-left: 0;
+}
+
+#profile-name {
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    margin: 0;
+}
+
+#profile-description {
+    margin: 0;
+}
+
+#hire-button {
+    color: black;
+}
+
+#resume-button {
+    color: black;
+}
+
+.profile-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  

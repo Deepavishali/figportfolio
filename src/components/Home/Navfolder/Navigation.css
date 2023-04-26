@@ -1,0 +1,68 @@
+.nav-port {
+  background-color: #fff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brand-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2d2d2d;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d2d2d;
+  padding: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #c2cf07;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Sections */
+#home {
+  /* Home section styles */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutme {
+  /* About Me section styles */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills {
+  /* Skills section styles */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects {
+  /* Projects section styles */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contactme {
+  /* Contact Me section styles */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
