@@ -62,7 +62,7 @@
   }
   
   
-  @media only screen and (max-width: 1110px) {
+  /* @media only screen and (max-width: 1110px) {
     .about-me-parent {
       width: 88%;
     }
@@ -86,5 +86,65 @@
     .about-me-options button {
       width: 100%;
     }
+  } */
+  
+  @media only screen and (max-width: 480px) {
+    .about-me-container {
+      margin-right: 0;
+    }
+    .about-me-card {
+      flex-direction: column;
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+    }
+    .about-me-profile {
+      width: 100%;
+      margin-top: 0;
+      height: 250px;
+    }
+    .about-me-details {
+      width: 100%;
+      padding: 20px 0;
+      text-align: center;
+    }
   }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* CSS styles for tablet view */
+    .about-me-container {
+      margin-right: 50px;
+    }
+    .about-me-parent {
+      width: 80%;
+    }
+    .about-me-card {
+      width: 100%;
+      margin-right: 0;
+    }
+    .about-me-profile {
+      width: 40%;
+      margin-top: 0;
+    }
+    .about-me-details {
+      width: 60%;
+    }
+    .about-me-description {
+      font-size: 18px;
+    }
+    .highlight {
+      font-size: 16px;
+    }
+    .about-me-options {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .about-me-options li {
+      margin: 0 10px;
+    }
+  }
+  
   
