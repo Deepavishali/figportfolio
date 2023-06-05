@@ -1,5 +1,5 @@
 import React from "react";
-import ScreenHeading from "../../utilities/screenHeading.js";
+//import ScreenHeading from "../../utilities/screenHeading.js";
 import Button from 'react-bootstrap/Button';
 import './About.css'
 
@@ -29,7 +29,7 @@ function AboutMe(props) {
       <section id="aboutme">
       <div className="about-me-container screen-container" id={props.id || ""}>
         <div className="about-me-parent">
-          <ScreenHeading title={"About Me"} subHeading={"Unique Value Proposition ?"} />
+          <h1>About Me</h1>
           <div className="about-me-card">
             <div className="about-me-profile"></div>
             <div className="about-me-details">
@@ -43,7 +43,12 @@ function AboutMe(props) {
                 {renderHighlight()}
               </div>
               <div className="about-me-options">
-              <Button variant="outline-warning" style={{color:"black"}}>Hire me</Button>&nbsp;&nbsp;
+              <Button variant="outline-warning" 
+              style={{color:"black"}}
+              onClick={() => document.getElementById('contactme').scrollIntoView({behavior: 'smooth'})}
+              >
+                Hire me
+                </Button>&nbsp;&nbsp;
                 <a
                   href="https://www.canva.com/design/DAFfyURGd1A/eYOpsYEgZsEq6RjFqJNnfg/view?utm_content=DAFfyURGd1A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
                   target="_blank"

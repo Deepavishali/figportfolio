@@ -1,33 +1,115 @@
 #profile-heading {
-    font-family: 'Pacifico', cursive;
-    font-size: 25px;
-    font-weight: bold;
-    color: yellow;
-    margin-left: 0;
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: yellow;
+  margin-left: 0;
 }
 
 #profile-name {
-    font-weight: bold;
-    font-family: 'Pacifico', cursive;
-    font-size: 60px;
-    margin: 0;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  margin: 0;
+}
+
+#left-col {
+  padding-right: 20px;
+}
+
+.deepafigma {
+  top: 0%;
+  left: 45%;
+  margin-left: 80px;
+  margin-top: 48px;
+}
+
+.yellow-bg {
+  opacity: 0.9;
 }
 
 #profile-description {
-    margin: 0;
+  margin: 0;
 }
 
 #hire-button {
-    color: black;
+  color: black;
 }
 
 #resume-button {
-    color: black;
+  color: black;
 }
 
 .profile-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Media queries for screens smaller than 768px */
+@media (max-width: 767px) {
+  #profile-heading {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  #profile-name {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 360px) and (max-height: 740px) {
+
+  /* Add your CSS styles for this phone size here */
+  #profile-heading {
+    font-size: 18px;
+    margin-left: 150px;
+  }
+
+  #profile-name {
+    font-size: 20px;
+    margin-left: 150px;
+  }
+
+  #left-col {
+    padding-right: 10px;
+  }
+
+  .deepafigma {
+    top: 5%;
+    left: 40%;
+    margin-left: 60px;
+    margin-top: 24px;
+  }
+
+  .yellow-bg {
+    opacity: 0.8;
+  }
+
+  #profile-description {
+    margin: 20px;
+    margin-left: 150px;
+    margin-right: 100px;
+  }
+
+  #hire-button {
+    color: white;
+    background-color: rgb(255, 251, 12);
+    border: none;
+    margin-left: 150px;
+    margin-right: 5px;
+    
+  }
+
+  #resume-button {
+    color: white;
+    background-color: rgb(244, 248, 8);
+    border: none;
+  }
+
+  .profile-image {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
-  
+}
