@@ -50,7 +50,7 @@ function AboutMe(props) {
                 Hire me
                 </Button>&nbsp;&nbsp;
                 <a
-                  href="https://www.canva.com/design/DAFfyURGd1A/eYOpsYEgZsEq6RjFqJNnfg/view?utm_content=DAFfyURGd1A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                    href="https://drive.google.com/file/d/18S4-czVxKpJpx4aeklSpyBZwtWarNN09/view"
                   target="_blank"
                   rel="noreferrer"
                 >

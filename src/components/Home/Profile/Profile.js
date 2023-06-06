@@ -30,7 +30,7 @@ function Profile() {
               <Button variant="outline-warning"
                 className="text-dark"
                 id="resume-button"
-                href="https://www.canva.com/design/DAFfyURGd1A/eYOpsYEgZsEq6RjFqJNnfg/view?utm_content=DAFfyURGd1A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                href="https://drive.google.com/file/d/18S4-czVxKpJpx4aeklSpyBZwtWarNN09/view"
                 target="_blank">
                 Resume
               </Button>
