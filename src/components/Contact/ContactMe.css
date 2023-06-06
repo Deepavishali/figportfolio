@@ -1,13 +1,9 @@
 .main-container {
-<<<<<<< HEAD
   padding-top: 50px;
-=======
->>>>>>> b0b340d9683d0b039939b59cde26b79cef71cd9a
-    height: 50rem;
+  height: 50rem;
     background-color: #ffffff;
   }
   
-<<<<<<< HEAD
 .heading {
     padding: 80px;
     } 
@@ -30,7 +26,8 @@
     margin: 0;
     padding: 0;
     font-family: "Pacifico", cursive;
-=======
+  }
+
   .heading {
     padding: 30px;
     }
@@ -43,7 +40,6 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
->>>>>>> b0b340d9683d0b039939b59cde26b79cef71cd9a
   }
   .contactme-parent {
     border-radius: 0.6rem;
@@ -109,11 +105,8 @@
   
   .contactform h2 {
     font-size: 1.9rem;
-<<<<<<< HEAD
     color: #000000;
-=======
     color: #0a0a0a;
->>>>>>> b0b340d9683d0b039939b59cde26b79cef71cd9a
     font-weight: 500;
   }
   
@@ -128,14 +121,11 @@
     padding: 0.3rem 0;
     font-size: 1rem;
     margin: 0.6rem 0;
-<<<<<<< HEAD
     border-radius: 2rem;
     border: 0.1rem solid #eeff00;
-=======
-    border: none;
+     border: none;
     border-bottom: 0.1rem solid #333;
->>>>>>> b0b340d9683d0b039939b59cde26b79cef71cd9a
-    outline: none;
+        outline: none;
     resize: none;
   }
   .contactform .inputbox textarea {
@@ -143,14 +133,11 @@
     padding: 0rem 0;
     font-size: 1rem;
     margin: 0rem 0;
-<<<<<<< HEAD
     border-radius: 2rem;
     border: 0.1rem solid #fcf803;
-=======
     border: none;
     border-bottom: 0.1rem solid #333;
->>>>>>> b0b340d9683d0b039939b59cde26b79cef71cd9a
-    outline: none;
+outline: none;
     resize: none;
   }
   
@@ -162,11 +149,8 @@
     margin: 0.6rem 0;
     pointer-events: none;
     transition: 0.5%;
-<<<<<<< HEAD
     color: #0a0400;
-=======
     color: #020202;
->>>>>>> b0b340d9683d0b039939b59cde26b79cef71cd9a
   }
   
   .contactform .inputbox input:focus ~ span,
@@ -181,13 +165,10 @@
   
   .contactform .inputbox input[type="submit"] {
     width: 100%;
-<<<<<<< HEAD
     background: #f88603;
     color: #000000;
-=======
     background: #e5e6e2;
     color: #020202;
->>>>>>> b0b340d9683d0b039939b59cde26b79cef71cd9a
     border: none;
     cursor: pointer;
     padding: 0.6rem;
@@ -242,7 +223,6 @@
       justify-content: center;
       padding-left: 2rem;
     }
-<<<<<<< HEAD
   }
 
   @media only screen and (max-width: 360px) {
@@ -342,6 +322,4 @@
       font-size: 1rem;
       padding: 0.4rem;
     }
-=======
->>>>>>> b0b340d9683d0b039939b59cde26b79cef71cd9a
   }

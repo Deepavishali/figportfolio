@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards.js";
 import "./ProjectCards.css"
 import crm from "../../assets/projects/crm.gif";
-import mba from "../../assets/projects/mba.png"
+import mba from "../../assets/projects/mba.png";
 
 function Projects(props) {
   return (

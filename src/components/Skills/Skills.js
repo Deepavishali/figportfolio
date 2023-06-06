@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 // import { motion } from "framer-motion";
 // import { textVariant } from "../../utils/motion.js";
@@ -29,16 +28,4 @@ const Skills = () => {
 };
 
 export default SectionWrapper(Skills, "");
-=======
-function Skills(){
-    return(
-        <section id="skills">
-        <div>
-            <h1>Skils to be added</h1>
-        </div>
-        </section>
-        )
-}
 
-export default Skills;
->>>>>>> b0b340d9683d0b039939b59cde26b79cef71cd9a
