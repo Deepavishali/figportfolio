@@ -65,5 +65,4 @@ function AboutMe(props) {
     );
   }
   
-  export default AboutMe;
-  
+export default AboutMe;

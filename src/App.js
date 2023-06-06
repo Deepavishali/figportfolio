@@ -8,16 +8,17 @@ import ContactMe from './components/Contact/ContactMe';
 import Projects from './components/projects/Projects.js';
 import Experience from './components/Education/Experience';
 
+
 function App() {
   return (
     <div className="App">
       <Navigation />
       <Profile />
       <AboutMe />
-      <Skills/>
-      <Experience/>
-      <Projects/>
-      <ContactMe/>
+      <Skills />
+      <Experience />
+      <Projects />
+      <ContactMe />
     </div>
   );
 }
