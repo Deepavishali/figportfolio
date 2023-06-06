@@ -30,7 +30,7 @@ function Profile() {
               <Button variant="outline-warning"
                 className="text-dark"
                 id="resume-button"
-                href="https://drive.google.com/file/d/18S4-czVxKpJpx4aeklSpyBZwtWarNN09/view"
+                href="https://drive.google.com/file/d/13wTNdMXlziD9zPfqJJYA4MSEwErVhXJ3/view?usp=drive_link"
                 target="_blank">
                 Resume
               </Button>
