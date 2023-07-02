@@ -50,7 +50,7 @@ function AboutMe(props) {
                 Hire me
                 </Button>&nbsp;&nbsp;
                 <a
-                    href="https://drive.google.com/file/d/1woAUhruqlyLbW6tbvRab6eYzKPSEDarQ/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1M99NSFI_jhfqxlpE-Bg_3s2vnwjXvHVG/view?usp=drive_link"
                   target="_blank"
                   rel="noreferrer"
                 >
